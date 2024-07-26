@@ -1,0 +1,58 @@
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# Build directories
+build/
+bin/
+lib/
+Debug/
+Release/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Dependency directories (if using package managers)
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+*.ninja
+*.make
+*.d
+
+# Environment files
+.env
+
+# Project-specific
+*.db
+*.sqlite
+
+# Exclude specific files
+*.cpp
+*.h
+!drone.cpp
+!drone.h
